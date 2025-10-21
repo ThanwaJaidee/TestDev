@@ -1,0 +1,168 @@
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step nan: Start procedure/Power Supply Meas | Unit: ", "output": ""}
+{"instruction": "Step 1: Set SW1 to off position | Unit: ", "output": ""}
+{"instruction": "Step 2: Set the assembly to the fixture | Unit: ", "output": ""}
+{"instruction": "Step 3: Make all necessary connections to assembly | Unit: ", "output": ""}
+{"instruction": "Step 4: Apply High voltage Supply | Unit: PS1", "output": ""}
+{"instruction": "Step 5: Delay (10.0s) | Unit: ", "output": ""}
+{"instruction": "Step 6: Measure Power Supply Voltages | Unit: ", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step nan: +3V3_C | Unit: DMM1,MUX-2", "output": ""}
+{"instruction": "Step nan: +1V9_C | Unit: DMM1,MUX-3", "output": ""}
+{"instruction": "Step nan: 15VC | Unit: DMM1,MUX-1", "output": ""}
+{"instruction": "Step nan: +5V_D | Unit: DMM2", "output": ""}
+{"instruction": "Step nan: +3V3_B | Unit: DMM3", "output": ""}
+{"instruction": "Step nan: +90V | Unit: DMM4", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 7: Apply High voltage Supply | Unit: PS1", "output": ""}
+{"instruction": "Step nan: Delay (10.0s) | Unit: ", "output": ""}
+{"instruction": "Step 8: Measure Power Supply Voltages | Unit: ", "output": ""}
+{"instruction": "Step nan: +3V3_C | Unit: DMM1,MUX-2", "output": ""}
+{"instruction": "Step nan: +1V9_C | Unit: DMM1,MUX-3", "output": ""}
+{"instruction": "Step nan: 15VC | Unit: DMM1,MUX-1", "output": ""}
+{"instruction": "Step nan: +5V_D | Unit: DMM2", "output": ""}
+{"instruction": "Step nan: +3V3_B | Unit: DMM3", "output": ""}
+{"instruction": "Step nan: +90V | Unit: DMM4", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step nan: Communications Test And ByPass Setup | Unit: ", "output": ""}
+{"instruction": "Step 1: Initialize communications | Unit: RS485", "output": ""}
+{"instruction": "Step nan: ModBus Connect | Unit: RS485", "output": ""}
+{"instruction": "Step nan: Release Hidden Parameters | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step nan: Mask Digital Inputs | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 2: Force ByPass Type code for R7 | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 3: Force Save and Reboot | Unit: RS485", "output": ""}
+{"instruction": "Step nan: (Delay 5sec) | Unit: ", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 4: Stop Communications | Unit: RS485", "output": ""}
+{"instruction": "Step nan: Initialize communications | Unit: RS485", "output": ""}
+{"instruction": "Step nan: ModBus Connect | Unit: RS485", "output": ""}
+{"instruction": "Step nan: Release Hidden Parameters | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 5: Mask digital Inputs | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 6: Select FCT Macro  | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 7: Disable all Faults | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 8: Clear first fault register | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 9: Reset fault | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 10: Read Fault Code | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 11: Read Drive Type Code | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 12: Read Firmware Version | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step nan: DSP A/D MEASUREMENTS AND CALIBRATION | Unit: ", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 1: Read 2.5v Reference | Unit: DMM1,MUX-4", "output": ""}
+{"instruction": "Step nan: Delay(2 seconds) | Unit: ", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 2: Write Value to Calibration Register | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 3: Measure Reference Voltages | Unit: ", "output": ""}
+{"instruction": "Step nan: +2V5 Reference | Unit: RS485", "output": ""}
+{"instruction": "Step nan: V Offset  | Unit: RS485", "output": ""}
+{"instruction": "Step nan: TEMP_A | Unit: RS485", "output": ""}
+{"instruction": "Step nan: V Board Rev (Revision E) | Unit: RS485", "output": ""}
+{"instruction": "Step 4: Measure Motor IFBK channels | Unit: ", "output": ""}
+{"instruction": "Step nan: IA_FBK | Unit: RS485", "output": ""}
+{"instruction": "Step nan: IA_X5_FBK | Unit: RS485", "output": ""}
+{"instruction": "Step nan: IC_FBK | Unit: RS485", "output": ""}
+{"instruction": "Step nan: IC_X5_FBK | Unit: RS485", "output": ""}
+{"instruction": "Step 5: Measure Input voltages | Unit: ", "output": ""}
+{"instruction": "Step nan: Measure and record actual line voltage | Unit: DMM6", "output": ""}
+{"instruction": "Step nan: A-B Voltage feedback(10 sample average) | Unit: RS485", "output": ""}
+{"instruction": "Step nan: B-C Voltage Feedback(10 sample average) | Unit: RS485", "output": ""}
+{"instruction": "Step nan: C-A Voltage Feedback(10 sample average) | Unit: RS485", "output": ""}
+{"instruction": "Step 6: Measure Power Supply Bus level | Unit: ", "output": ""}
+{"instruction": "Step nan: Calculate A/D DC Bus Level Count  | Unit: ", "output": ""}
+{"instruction": "Step nan: Vcalculated=(((((VinMeas - 25.5)*sqrt(2) - 3.65) / 25) -0.6) * 113.3) | Unit: ", "output": ""}
+{"instruction": "Step nan: Average 10 readings and compare to calculated limits | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step nan: Digital I/O | Unit: ", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 1: Customer +24 V test | Unit: ", "output": ""}
+{"instruction": "Step nan: Measure User +24V | Unit: DMM5,MUX-6", "output": ""}
+{"instruction": "Step nan:  | Unit: MUX-6", "output": ""}
+{"instruction": "Step nan: Measure Fan Supply Voltage  | Unit: DMM5,MUX-5", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 2: Read the status of digital inputs | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 4: Set digital outputs  | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 5: Delay 1sec | Unit: ", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 6: Read the status of digital inputs | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step nan: Coil Control and Interface | Unit: ", "output": ""}
+{"instruction": "Step 1:  Command Drive Mode | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 2: Delay 20ms | Unit: ", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 3: Measure Contactor Supply Voltage | Unit: DMM4", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 4: Measure Coil IFBK | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 5: Command Bypass Mode & Run | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 6: Delay 6seconds | Unit: ", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 7: Measure Contactor Suppy Voltages | Unit: ", "output": ""}
+{"instruction": "Step nan: External Voltage Measurement | Unit: DMM4", "output": ""}
+{"instruction": "Step nan: VCAP | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 8: Turn Off 90V supply enable | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 9: Delay 10seconds | Unit: ", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 10: Measure Contactor Supply Voltage | Unit: DMM4", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 11: Disable 24V common | Unit: RS485", "output": ""}
+{"instruction": "Step nan: Delay 1second | Unit: ", "output": ""}
+{"instruction": "Step nan: Measure User +24V | Unit: DMM5,MUX-6", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 12: Remove Run Command | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step nan: Restore factory settings and reboot | Unit: ", "output": ""}
+{"instruction": "Step 1: Clear fault and event logs | Unit: ", "output": ""}
+{"instruction": "Step nan: Clear Last Fault | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 2: Restore factory settings and reboot | Unit: RS485", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 3: Delay 5seconds | Unit: ", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 4: Stop Communications | Unit: RS485", "output": ""}
+{"instruction": "Step nan: Stop procedure | Unit: ", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 1: Power off | Unit: ", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 2: Remove the board from fixture | Unit: ", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 1: All measured values are to be recorded and saved, referenced to the assembly serial number.  | Unit: ", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step Revision: Date | Unit: Revised by", "output": ""}
+{"instruction": "Step 0: 06/08/2007 | Unit: Dennis Tyczkowski", "output": ""}
+{"instruction": "Step 1: 06/20/2007 | Unit: Dennis Tyczkowski", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step 2: 07/12/2007 | Unit: Dennis Tyczkowski", "output": ""}
+{"instruction": "Step 3: 08/02/2007 | Unit: Dennis Tyczkowski", "output": ""}
+{"instruction": "Step A: 12/05/2007 | Unit: Dennis Tyczkowski", "output": ""}
+{"instruction": "Step B: 01/22/2008 | Unit: Dennis Tyczkowski", "output": ""}
+{"instruction": "Step C: 7/10/2008 | Unit: Lu Yang", "output": ""}
+{"instruction": "Step D: 9/22/2008 | Unit: Dennis Tyczkowski", "output": ""}
+{"instruction": "Step E: 9/25/2008 | Unit: Dennis Tyczkowski", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step F: 1/15/2009 | Unit: Dennis Tyczkowski", "output": ""}
+{"instruction": "Step nan:  | Unit: ", "output": ""}
+{"instruction": "Step nan:  | Unit: Lu Yang", "output": ""}
