@@ -1,0 +1,168 @@
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test 1 : Step nan : Description Start procedure/Power Supply Meas : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 1 : Description Set SW1 to off position : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 2 : Description Set the assembly to the fixture : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 3 : Description Make all necessary connections to assembly : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 4 : Description Apply High voltage Supply : Unit PS1 : ", "output": ""}
+{"instruction": "Test nan : Step 5 : Description Delay (10.0s) : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 6 : Description Measure Power Supply Voltages : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description +3V3_C : Unit DMM1,MUX-2 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description +1V9_C : Unit DMM1,MUX-3 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description 15VC : Unit DMM1,MUX-1 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description +5V_D : Unit DMM2 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description +3V3_B : Unit DMM3 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description +90V : Unit DMM4 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 7 : Description Apply High voltage Supply : Unit PS1 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description Delay (10.0s) : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 8 : Description Measure Power Supply Voltages : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description +3V3_C : Unit DMM1,MUX-2 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description +1V9_C : Unit DMM1,MUX-3 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description 15VC : Unit DMM1,MUX-1 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description +5V_D : Unit DMM2 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description +3V3_B : Unit DMM3 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description +90V : Unit DMM4 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test 2 : Step nan : Description Communications Test And ByPass Setup : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 1 : Description Initialize communications : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description ModBus Connect : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description Release Hidden Parameters : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description Mask Digital Inputs : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 2 : Description Force ByPass Type code for R7 : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 3 : Description Force Save and Reboot : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description (Delay 5sec) : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 4 : Description Stop Communications : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description Initialize communications : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description ModBus Connect : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description Release Hidden Parameters : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 5 : Description Mask digital Inputs : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 6 : Description Select FCT Macro  : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 7 : Description Disable all Faults : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 8 : Description Clear first fault register : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 9 : Description Reset fault : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 10 : Description Read Fault Code : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 11 : Description Read Drive Type Code : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 12 : Description Read Firmware Version : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test 3 : Step nan : Description DSP A/D MEASUREMENTS AND CALIBRATION : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 1 : Description Read 2.5v Reference : Unit DMM1,MUX-4 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description Delay(2 seconds) : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 2 : Description Write Value to Calibration Register : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 3 : Description Measure Reference Voltages : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description +2V5 Reference : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description V Offset  : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description TEMP_A : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description V Board Rev (Revision E) : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step 4 : Description Measure Motor IFBK channels : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description IA_FBK : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description IA_X5_FBK : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description IC_FBK : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description IC_X5_FBK : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step 5 : Description Measure Input voltages : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description Measure and record actual line voltage : Unit DMM6 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description A-B Voltage feedback(10 sample average) : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description B-C Voltage Feedback(10 sample average) : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description C-A Voltage Feedback(10 sample average) : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step 6 : Description Measure Power Supply Bus level : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description Calculate A/D DC Bus Level Count  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description Vcalculated=(((((VinMeas - 25.5)*sqrt(2) - 3.65) / 25) -0.6) * 113.3) : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description Average 10 readings and compare to calculated limits : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test 4 : Step nan : Description Digital I/O : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 1 : Description Customer +24 V test : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description Measure User +24V : Unit DMM5,MUX-6 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit MUX-6 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description Measure Fan Supply Voltage  : Unit DMM5,MUX-5 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 2 : Description Read the status of digital inputs : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 4 : Description Set digital outputs  : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 5 : Description Delay 1sec : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 6 : Description Read the status of digital inputs : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test 5 : Step nan : Description Coil Control and Interface : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 1 : Description  Command Drive Mode : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 2 : Description Delay 20ms : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 3 : Description Measure Contactor Supply Voltage : Unit DMM4 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 4 : Description Measure Coil IFBK : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 5 : Description Command Bypass Mode & Run : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 6 : Description Delay 6seconds : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 7 : Description Measure Contactor Suppy Voltages : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description External Voltage Measurement : Unit DMM4 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description VCAP : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 8 : Description Turn Off 90V supply enable : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 9 : Description Delay 10seconds : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 10 : Description Measure Contactor Supply Voltage : Unit DMM4 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 11 : Description Disable 24V common : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description Delay 1second : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description Measure User +24V : Unit DMM5,MUX-6 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 12 : Description Remove Run Command : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test 6 : Step nan : Description Restore factory settings and reboot : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 1 : Description Clear fault and event logs : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description Clear Last Fault : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 2 : Description Restore factory settings and reboot : Unit RS485 : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 3 : Description Delay 5seconds : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 4 : Description Stop Communications : Unit RS485 : ", "output": ""}
+{"instruction": "Test 7 : Step nan : Description Stop procedure : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 1 : Description Power off : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 2 : Description Remove the board from fixture : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test Notes: : Step 1 : Description All measured values are to be recorded and saved, referenced to the assembly serial number.  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step Revision : Description Date : Unit Revised by : ", "output": ""}
+{"instruction": "Test nan : Step 0 : Description 06/08/2007 : Unit Dennis Tyczkowski : ", "output": ""}
+{"instruction": "Test nan : Step 1 : Description 06/20/2007 : Unit Dennis Tyczkowski : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step 2 : Description 07/12/2007 : Unit Dennis Tyczkowski : ", "output": ""}
+{"instruction": "Test nan : Step 3 : Description 08/02/2007 : Unit Dennis Tyczkowski : ", "output": ""}
+{"instruction": "Test nan : Step A : Description 12/05/2007 : Unit Dennis Tyczkowski : ", "output": ""}
+{"instruction": "Test nan : Step B : Description 01/22/2008 : Unit Dennis Tyczkowski : ", "output": ""}
+{"instruction": "Test nan : Step C : Description 7/10/2008 : Unit Lu Yang : ", "output": ""}
+{"instruction": "Test nan : Step D : Description 9/22/2008 : Unit Dennis Tyczkowski : ", "output": ""}
+{"instruction": "Test nan : Step E : Description 9/25/2008 : Unit Dennis Tyczkowski : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step F : Description 1/15/2009 : Unit Dennis Tyczkowski : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit  : ", "output": ""}
+{"instruction": "Test nan : Step nan : Description  : Unit Lu Yang : ", "output": ""}

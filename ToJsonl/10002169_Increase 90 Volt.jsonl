@@ -1,168 +1,168 @@
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step nan: Start procedure/Power Supply Meas | Unit: ", "output": ""}
-{"instruction": "Step 1: Set SW1 to off position | Unit: ", "output": ""}
-{"instruction": "Step 2: Set the assembly to the fixture | Unit: ", "output": ""}
-{"instruction": "Step 3: Make all necessary connections to assembly | Unit: ", "output": ""}
-{"instruction": "Step 4: Apply High voltage Supply | Unit: PS1", "output": ""}
-{"instruction": "Step 5: Delay (10.0s) | Unit: ", "output": ""}
-{"instruction": "Step 6: Measure Power Supply Voltages | Unit: ", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step nan: +3V3_C | Unit: DMM1,MUX-2", "output": ""}
-{"instruction": "Step nan: +1V9_C | Unit: DMM1,MUX-3", "output": ""}
-{"instruction": "Step nan: 15VC | Unit: DMM1,MUX-1", "output": ""}
-{"instruction": "Step nan: +5V_D | Unit: DMM2", "output": ""}
-{"instruction": "Step nan: +3V3_B | Unit: DMM3", "output": ""}
-{"instruction": "Step nan: +90V | Unit: DMM4", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 7: Apply High voltage Supply | Unit: PS1", "output": ""}
-{"instruction": "Step nan: Delay (10.0s) | Unit: ", "output": ""}
-{"instruction": "Step 8: Measure Power Supply Voltages | Unit: ", "output": ""}
-{"instruction": "Step nan: +3V3_C | Unit: DMM1,MUX-2", "output": ""}
-{"instruction": "Step nan: +1V9_C | Unit: DMM1,MUX-3", "output": ""}
-{"instruction": "Step nan: 15VC | Unit: DMM1,MUX-1", "output": ""}
-{"instruction": "Step nan: +5V_D | Unit: DMM2", "output": ""}
-{"instruction": "Step nan: +3V3_B | Unit: DMM3", "output": ""}
-{"instruction": "Step nan: +90V | Unit: DMM4", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step nan: Communications Test And ByPass Setup | Unit: ", "output": ""}
-{"instruction": "Step 1: Initialize communications | Unit: RS485", "output": ""}
-{"instruction": "Step nan: ModBus Connect | Unit: RS485", "output": ""}
-{"instruction": "Step nan: Release Hidden Parameters | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step nan: Mask Digital Inputs | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 2: Force ByPass Type code for R7 | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 3: Force Save and Reboot | Unit: RS485", "output": ""}
-{"instruction": "Step nan: (Delay 5sec) | Unit: ", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 4: Stop Communications | Unit: RS485", "output": ""}
-{"instruction": "Step nan: Initialize communications | Unit: RS485", "output": ""}
-{"instruction": "Step nan: ModBus Connect | Unit: RS485", "output": ""}
-{"instruction": "Step nan: Release Hidden Parameters | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 5: Mask digital Inputs | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 6: Select FCT Macro  | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 7: Disable all Faults | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 8: Clear first fault register | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 9: Reset fault | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 10: Read Fault Code | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 11: Read Drive Type Code | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 12: Read Firmware Version | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step nan: DSP A/D MEASUREMENTS AND CALIBRATION | Unit: ", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 1: Read 2.5v Reference | Unit: DMM1,MUX-4", "output": ""}
-{"instruction": "Step nan: Delay(2 seconds) | Unit: ", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 2: Write Value to Calibration Register | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 3: Measure Reference Voltages | Unit: ", "output": ""}
-{"instruction": "Step nan: +2V5 Reference | Unit: RS485", "output": ""}
-{"instruction": "Step nan: V Offset  | Unit: RS485", "output": ""}
-{"instruction": "Step nan: TEMP_A | Unit: RS485", "output": ""}
-{"instruction": "Step nan: V Board Rev (Revision E) | Unit: RS485", "output": ""}
-{"instruction": "Step 4: Measure Motor IFBK channels | Unit: ", "output": ""}
-{"instruction": "Step nan: IA_FBK | Unit: RS485", "output": ""}
-{"instruction": "Step nan: IA_X5_FBK | Unit: RS485", "output": ""}
-{"instruction": "Step nan: IC_FBK | Unit: RS485", "output": ""}
-{"instruction": "Step nan: IC_X5_FBK | Unit: RS485", "output": ""}
-{"instruction": "Step 5: Measure Input voltages | Unit: ", "output": ""}
-{"instruction": "Step nan: Measure and record actual line voltage | Unit: DMM6", "output": ""}
-{"instruction": "Step nan: A-B Voltage feedback(10 sample average) | Unit: RS485", "output": ""}
-{"instruction": "Step nan: B-C Voltage Feedback(10 sample average) | Unit: RS485", "output": ""}
-{"instruction": "Step nan: C-A Voltage Feedback(10 sample average) | Unit: RS485", "output": ""}
-{"instruction": "Step 6: Measure Power Supply Bus level | Unit: ", "output": ""}
-{"instruction": "Step nan: Calculate A/D DC Bus Level Count  | Unit: ", "output": ""}
-{"instruction": "Step nan: Vcalculated=(((((VinMeas - 25.5)*sqrt(2) - 3.65) / 25) -0.6) * 113.3) | Unit: ", "output": ""}
-{"instruction": "Step nan: Average 10 readings and compare to calculated limits | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step nan: Digital I/O | Unit: ", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 1: Customer +24 V test | Unit: ", "output": ""}
-{"instruction": "Step nan: Measure User +24V | Unit: DMM5,MUX-6", "output": ""}
-{"instruction": "Step nan:  | Unit: MUX-6", "output": ""}
-{"instruction": "Step nan: Measure Fan Supply Voltage  | Unit: DMM5,MUX-5", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 2: Read the status of digital inputs | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 4: Set digital outputs  | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 5: Delay 1sec | Unit: ", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 6: Read the status of digital inputs | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step nan: Coil Control and Interface | Unit: ", "output": ""}
-{"instruction": "Step 1:  Command Drive Mode | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 2: Delay 20ms | Unit: ", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 3: Measure Contactor Supply Voltage | Unit: DMM4", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 4: Measure Coil IFBK | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 5: Command Bypass Mode & Run | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 6: Delay 6seconds | Unit: ", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 7: Measure Contactor Suppy Voltages | Unit: ", "output": ""}
-{"instruction": "Step nan: External Voltage Measurement | Unit: DMM4", "output": ""}
-{"instruction": "Step nan: VCAP | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 8: Turn Off 90V supply enable | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 9: Delay 10seconds | Unit: ", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 10: Measure Contactor Supply Voltage | Unit: DMM4", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 11: Disable 24V common | Unit: RS485", "output": ""}
-{"instruction": "Step nan: Delay 1second | Unit: ", "output": ""}
-{"instruction": "Step nan: Measure User +24V | Unit: DMM5,MUX-6", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 12: Remove Run Command | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step nan: Restore factory settings and reboot | Unit: ", "output": ""}
-{"instruction": "Step 1: Clear fault and event logs | Unit: ", "output": ""}
-{"instruction": "Step nan: Clear Last Fault | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 2: Restore factory settings and reboot | Unit: RS485", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 3: Delay 5seconds | Unit: ", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 4: Stop Communications | Unit: RS485", "output": ""}
-{"instruction": "Step nan: Stop procedure | Unit: ", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 1: Power off | Unit: ", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 2: Remove the board from fixture | Unit: ", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 1: All measured values are to be recorded and saved, referenced to the assembly serial number.  | Unit: ", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step Revision: Date | Unit: Revised by", "output": ""}
-{"instruction": "Step 0: 06/08/2007 | Unit: Dennis Tyczkowski", "output": ""}
-{"instruction": "Step 1: 06/20/2007 | Unit: Dennis Tyczkowski", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step 2: 07/12/2007 | Unit: Dennis Tyczkowski", "output": ""}
-{"instruction": "Step 3: 08/02/2007 | Unit: Dennis Tyczkowski", "output": ""}
-{"instruction": "Step A: 12/05/2007 | Unit: Dennis Tyczkowski", "output": ""}
-{"instruction": "Step B: 01/22/2008 | Unit: Dennis Tyczkowski", "output": ""}
-{"instruction": "Step C: 7/10/2008 | Unit: Lu Yang", "output": ""}
-{"instruction": "Step D: 9/22/2008 | Unit: Dennis Tyczkowski", "output": ""}
-{"instruction": "Step E: 9/25/2008 | Unit: Dennis Tyczkowski", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step F: 1/15/2009 | Unit: Dennis Tyczkowski", "output": ""}
-{"instruction": "Step nan:  | Unit: ", "output": ""}
-{"instruction": "Step nan:  | Unit: Lu Yang", "output": ""}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "1 Start procedure/Power Supply Meas", "output": {"Test": 1, "Step": "", "Description": "Start procedure/Power Supply Meas", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "1 Set SW1 to off position", "output": {"Test": "", "Step": 1, "Description": "Set SW1 to off position", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "2 Set the assembly to the fixture", "output": {"Test": "", "Step": 2, "Description": "Set the assembly to the fixture", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "3 Make all necessary connections to assembly", "output": {"Test": "", "Step": 3, "Description": "Make all necessary connections to assembly", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "4 Apply High voltage Supply PS1 600VAC +/- 5%", "output": {"Test": "", "Step": 4, "Description": "Apply High voltage Supply", "Unit": "PS1", "Setting": "", "InputNode": "", "InputValue": "600VAC +/- 5%", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "5 Delay (10.0s)", "output": {"Test": "", "Step": 5, "Description": "Delay (10.0s)", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "6 Measure Power Supply Voltages", "output": {"Test": "", "Step": 6, "Description": "Measure Power Supply Voltages", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "+3V3_C DMM1,MUX-2 Close TP7 3.2V 3.4V", "output": {"Test": "", "Step": "", "Description": "+3V3_C", "Unit": "DMM1,MUX-2", "Setting": "Close", "InputNode": "TP7", "InputValue": "", "MeasNode": "", "LowLimit": "3.2V", "HighLimit": "3.4V"}}
+{"instruction": "+1V9_C DMM1,MUX-3 Close TP9 1.88V 1.97V", "output": {"Test": "", "Step": "", "Description": "+1V9_C", "Unit": "DMM1,MUX-3", "Setting": "Close", "InputNode": "TP9", "InputValue": "", "MeasNode": "", "LowLimit": "1.88V", "HighLimit": "1.97V"}}
+{"instruction": "15VC DMM1,MUX-1 Close FCT5 14.2V 15.4V", "output": {"Test": "", "Step": "", "Description": "15VC", "Unit": "DMM1,MUX-1", "Setting": "Close", "InputNode": "FCT5", "InputValue": "", "MeasNode": "", "LowLimit": "14.2V", "HighLimit": "15.4V"}}
+{"instruction": "+5V_D DMM2 FCT3-FCT4 4.9V 5.7V", "output": {"Test": "", "Step": "", "Description": "+5V_D", "Unit": "DMM2", "Setting": "", "InputNode": "FCT3-FCT4", "InputValue": "", "MeasNode": "", "LowLimit": "4.9V", "HighLimit": "5.7V"}}
+{"instruction": "+3V3_B DMM3 3.2V 3.4V", "output": {"Test": "", "Step": "", "Description": "+3V3_B", "Unit": "DMM3", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "3.2V", "HighLimit": "3.4V"}}
+{"instruction": "+90V DMM4 91V 99V", "output": {"Test": "", "Step": "", "Description": "+90V", "Unit": "DMM4", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "91V", "HighLimit": "99V"}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "7 Apply High voltage Supply PS1 220VAC +/- 5%", "output": {"Test": "", "Step": 7, "Description": "Apply High voltage Supply", "Unit": "PS1", "Setting": "", "InputNode": "", "InputValue": "220VAC +/- 5%", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "Delay (10.0s)", "output": {"Test": "", "Step": "", "Description": "Delay (10.0s)", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "8 Measure Power Supply Voltages", "output": {"Test": "", "Step": 8, "Description": "Measure Power Supply Voltages", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "+3V3_C DMM1,MUX-2 Close 3.2V 3.4V", "output": {"Test": "", "Step": "", "Description": "+3V3_C", "Unit": "DMM1,MUX-2", "Setting": "Close", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "3.2V", "HighLimit": "3.4V"}}
+{"instruction": "+1V9_C DMM1,MUX-3 Close 1.88V 1.97V", "output": {"Test": "", "Step": "", "Description": "+1V9_C", "Unit": "DMM1,MUX-3", "Setting": "Close", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "1.88V", "HighLimit": "1.97V"}}
+{"instruction": "15VC DMM1,MUX-1 Close 14.2V 15.4V", "output": {"Test": "", "Step": "", "Description": "15VC", "Unit": "DMM1,MUX-1", "Setting": "Close", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "14.2V", "HighLimit": "15.4V"}}
+{"instruction": "+5V_D DMM2 4.9V 5.7V", "output": {"Test": "", "Step": "", "Description": "+5V_D", "Unit": "DMM2", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "4.9V", "HighLimit": "5.7V"}}
+{"instruction": "+3V3_B DMM3 3.2V 3.4V", "output": {"Test": "", "Step": "", "Description": "+3V3_B", "Unit": "DMM3", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "3.2V", "HighLimit": "3.4V"}}
+{"instruction": "+90V DMM4 91V 99V", "output": {"Test": "", "Step": "", "Description": "+90V", "Unit": "DMM4", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "91V", "HighLimit": "99V"}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "2 Communications Test And ByPass Setup", "output": {"Test": 2, "Step": "", "Description": "Communications Test And ByPass Setup", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "1 Initialize communications RS485 Write", "output": {"Test": "", "Step": 1, "Description": "Initialize communications", "Unit": "RS485", "Setting": "Write", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "ModBus Connect RS485 Write", "output": {"Test": "", "Step": "", "Description": "ModBus Connect", "Unit": "RS485", "Setting": "Write", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "Release Hidden Parameters RS485 Write", "output": {"Test": "", "Step": "", "Description": "Release Hidden Parameters", "Unit": "RS485", "Setting": "Write", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "Mask Digital Inputs RS485 Write 10301 3F Hex", "output": {"Test": "", "Step": "", "Description": "Mask Digital Inputs", "Unit": "RS485", "Setting": "Write", "InputNode": 10301, "InputValue": "3F Hex", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "2 Force ByPass Type code for R7 RS485 Write 10509 0", "output": {"Test": "", "Step": 2, "Description": "Force ByPass Type code for R7", "Unit": "RS485", "Setting": "Write", "InputNode": 10509, "InputValue": 0, "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "3 Force Save and Reboot RS485 Write 10511 5", "output": {"Test": "", "Step": 3, "Description": "Force Save and Reboot", "Unit": "RS485", "Setting": "Write", "InputNode": 10511, "InputValue": 5, "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "(Delay 5sec)", "output": {"Test": "", "Step": "", "Description": "(Delay 5sec)", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "4 Stop Communications RS485 Write", "output": {"Test": "", "Step": 4, "Description": "Stop Communications", "Unit": "RS485", "Setting": "Write", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "Initialize communications RS485 Write", "output": {"Test": "", "Step": "", "Description": "Initialize communications", "Unit": "RS485", "Setting": "Write", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "ModBus Connect RS485 Write", "output": {"Test": "", "Step": "", "Description": "ModBus Connect", "Unit": "RS485", "Setting": "Write", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "Release Hidden Parameters RS485 Write", "output": {"Test": "", "Step": "", "Description": "Release Hidden Parameters", "Unit": "RS485", "Setting": "Write", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "5 Mask digital Inputs RS485 Write 10302 0", "output": {"Test": "", "Step": 5, "Description": "Mask digital Inputs", "Unit": "RS485", "Setting": "Write", "InputNode": 10302, "InputValue": 0, "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "RS485 Write 10301 3F Hex", "output": {"Test": "", "Step": "", "Description": "", "Unit": "RS485", "Setting": "Write", "InputNode": 10301, "InputValue": "3F Hex", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "6 Select FCT Macro  RS485 Write 10525 1", "output": {"Test": "", "Step": 6, "Description": "Select FCT Macro ", "Unit": "RS485", "Setting": "Write", "InputNode": 10525, "InputValue": 1, "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "7 Disable all Faults RS485 Write 10513 FFFF Hex", "output": {"Test": "", "Step": 7, "Description": "Disable all Faults", "Unit": "RS485", "Setting": "Write", "InputNode": 10513, "InputValue": "FFFF Hex", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "RS485 Write 10514 FFFF Hex", "output": {"Test": "", "Step": "", "Description": "", "Unit": "RS485", "Setting": "Write", "InputNode": 10514, "InputValue": "FFFF Hex", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "8 Clear first fault register RS485 Write 401 0", "output": {"Test": "", "Step": 8, "Description": "Clear first fault register", "Unit": "RS485", "Setting": "Write", "InputNode": 401, "InputValue": 0, "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "9 Reset fault RS485 Write 10523 10 Hex", "output": {"Test": "", "Step": 9, "Description": "Reset fault", "Unit": "RS485", "Setting": "Write", "InputNode": 10523, "InputValue": "10 Hex", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "10 Read Fault Code RS485 Read 401.0 0 0 0", "output": {"Test": "", "Step": 10, "Description": "Read Fault Code", "Unit": "RS485", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": 401.0, "LowLimit": 0, "HighLimit": 0}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "11 Read Drive Type Code RS485 Read 3306.0 4A62 4A62", "output": {"Test": "", "Step": 11, "Description": "Read Drive Type Code", "Unit": "RS485", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": 3306.0, "LowLimit": "4A62", "HighLimit": "4A62"}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "12 Read Firmware Version RS485 Read 3301.0", "output": {"Test": "", "Step": 12, "Description": "Read Firmware Version", "Unit": "RS485", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": 3301.0, "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "3 DSP A/D MEASUREMENTS AND CALIBRATION", "output": {"Test": 3, "Step": "", "Description": "DSP A/D MEASUREMENTS AND CALIBRATION", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "1 Read 2.5v Reference DMM1,MUX-4 Read 2.475v 2.525v", "output": {"Test": "", "Step": 1, "Description": "Read 2.5v Reference", "Unit": "DMM1,MUX-4", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "2.475v", "HighLimit": "2.525v"}}
+{"instruction": "Delay(2 seconds)", "output": {"Test": "", "Step": "", "Description": "Delay(2 seconds)", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "2 Write Value to Calibration Register RS485 Write 10518 Value read in step1=", "output": {"Test": "", "Step": 2, "Description": "Write Value to Calibration Register", "Unit": "RS485", "Setting": "Write", "InputNode": 10518, "InputValue": "Value read in step1=", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "Volts x 1000", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "Volts x 1000", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "3 Measure Reference Voltages", "output": {"Test": "", "Step": 3, "Description": "Measure Reference Voltages", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "+2V5 Reference RS485 Read 10324.0 0 3170 3700", "output": {"Test": "", "Step": "", "Description": "+2V5 Reference", "Unit": "RS485", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": 10324.0, "LowLimit": 3170, "HighLimit": 3700}}
+{"instruction": "V Offset  RS485 Read 10325.0 0 0 375", "output": {"Test": "", "Step": "", "Description": "V Offset ", "Unit": "RS485", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": 10325.0, "LowLimit": 0, "HighLimit": 375}}
+{"instruction": "TEMP_A RS485 Read 105.0 0 200 450", "output": {"Test": "", "Step": "", "Description": "TEMP_A", "Unit": "RS485", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": 105.0, "LowLimit": 200, "HighLimit": 450}}
+{"instruction": "V Board Rev (Revision E) RS485 Read 10321.0 0 995 1100", "output": {"Test": "", "Step": "", "Description": "V Board Rev (Revision E)", "Unit": "RS485", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": 10321.0, "LowLimit": 995, "HighLimit": 1100}}
+{"instruction": "4 Measure Motor IFBK channels", "output": {"Test": "", "Step": 4, "Description": "Measure Motor IFBK channels", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "IA_FBK RS485 Read 10314.0 0 -50 50", "output": {"Test": "", "Step": "", "Description": "IA_FBK", "Unit": "RS485", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": 10314.0, "LowLimit": -50, "HighLimit": 50}}
+{"instruction": "IA_X5_FBK RS485 Read 10313.0 0 -200 200", "output": {"Test": "", "Step": "", "Description": "IA_X5_FBK", "Unit": "RS485", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": 10313.0, "LowLimit": -200, "HighLimit": 200}}
+{"instruction": "IC_FBK RS485 Read 10312.0 0 -50 50", "output": {"Test": "", "Step": "", "Description": "IC_FBK", "Unit": "RS485", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": 10312.0, "LowLimit": -50, "HighLimit": 50}}
+{"instruction": "IC_X5_FBK RS485 Read 10311.0 0 -200 200", "output": {"Test": "", "Step": "", "Description": "IC_X5_FBK", "Unit": "RS485", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": 10311.0, "LowLimit": -200, "HighLimit": 200}}
+{"instruction": "5 Measure Input voltages", "output": {"Test": "", "Step": 5, "Description": "Measure Input voltages", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "Measure and record actual line voltage DMM6 Read VinMeas", "output": {"Test": "", "Step": "", "Description": "Measure and record actual line voltage", "Unit": "DMM6", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "A-B Voltage feedback(10 sample average) RS485 Read 111.0 (VinMeas/2)*0.87 (VinMeas/2)*1.13", "output": {"Test": "", "Step": "", "Description": "A-B Voltage feedback(10 sample average)", "Unit": "RS485", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": 111.0, "LowLimit": "(VinMeas/2)*0.87", "HighLimit": "(VinMeas/2)*1.13"}}
+{"instruction": "B-C Voltage Feedback(10 sample average) RS485 Read 112.0 (VinMeas/2)*0.87 (VinMeas/2)*1.13", "output": {"Test": "", "Step": "", "Description": "B-C Voltage Feedback(10 sample average)", "Unit": "RS485", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": 112.0, "LowLimit": "(VinMeas/2)*0.87", "HighLimit": "(VinMeas/2)*1.13"}}
+{"instruction": "C-A Voltage Feedback(10 sample average) RS485 Read 113.0 0.89*VinMeas 1.11*VinMeas", "output": {"Test": "", "Step": "", "Description": "C-A Voltage Feedback(10 sample average)", "Unit": "RS485", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": 113.0, "LowLimit": "0.89*VinMeas", "HighLimit": "1.11*VinMeas"}}
+{"instruction": "6 Measure Power Supply Bus level", "output": {"Test": "", "Step": 6, "Description": "Measure Power Supply Bus level", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "Calculate A/D DC Bus Level Count ", "output": {"Test": "", "Step": "", "Description": "Calculate A/D DC Bus Level Count ", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "Vcalculated=(((((VinMeas - 25.5)*sqrt(2) - 3.65) / 25) -0.6) * 113.3)", "output": {"Test": "", "Step": "", "Description": "Vcalculated=(((((VinMeas - 25.5)*sqrt(2) - 3.65) / 25) -0.6) * 113.3)", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "Average 10 readings and compare to calculated limits RS485 Read 10310.0 0.92*Vcalculated 1.08*Vcalculated", "output": {"Test": "", "Step": "", "Description": "Average 10 readings and compare to calculated limits", "Unit": "RS485", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": 10310.0, "LowLimit": "0.92*Vcalculated", "HighLimit": "1.08*Vcalculated"}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "4 Digital I/O", "output": {"Test": 4, "Step": "", "Description": "Digital I/O", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "1 Customer +24 V test", "output": {"Test": "", "Step": 1, "Description": "Customer +24 V test", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "Measure User +24V DMM5,MUX-6 Close 21V 24V", "output": {"Test": "", "Step": "", "Description": "Measure User +24V", "Unit": "DMM5,MUX-6", "Setting": "Close", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "21V", "HighLimit": "24V"}}
+{"instruction": "MUX-6 Open", "output": {"Test": "", "Step": "", "Description": "", "Unit": "MUX-6", "Setting": "Open", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "Measure Fan Supply Voltage  DMM5,MUX-5 Close 22V 26v", "output": {"Test": "", "Step": "", "Description": "Measure Fan Supply Voltage ", "Unit": "DMM5,MUX-5", "Setting": "Close", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "22V", "HighLimit": "26v"}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "2 Read the status of digital inputs RS485 Read 103.0 015 hex 015 hex", "output": {"Test": "", "Step": 2, "Description": "Read the status of digital inputs", "Unit": "RS485", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": 103.0, "LowLimit": "015 hex", "HighLimit": "015 hex"}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "4 Set digital outputs  RS485 Write 107 3FH", "output": {"Test": "", "Step": 4, "Description": "Set digital outputs ", "Unit": "RS485", "Setting": "Write", "InputNode": 107, "InputValue": "3FH", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "5 Delay 1sec", "output": {"Test": "", "Step": 5, "Description": "Delay 1sec", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "6 Read the status of digital inputs RS485 Read 103.0 02Ahex 02Ahex", "output": {"Test": "", "Step": 6, "Description": "Read the status of digital inputs", "Unit": "RS485", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": 103.0, "LowLimit": "02Ahex", "HighLimit": "02Ahex"}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "5 Coil Control and Interface", "output": {"Test": 5, "Step": "", "Description": "Coil Control and Interface", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "1  Command Drive Mode RS485 Write 10523 1", "output": {"Test": "", "Step": 1, "Description": " Command Drive Mode", "Unit": "RS485", "Setting": "Write", "InputNode": 10523, "InputValue": 1, "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "2 Delay 20ms", "output": {"Test": "", "Step": 2, "Description": "Delay 20ms", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "3 Measure Contactor Supply Voltage DMM4 Read 86v 95v", "output": {"Test": "", "Step": 3, "Description": "Measure Contactor Supply Voltage", "Unit": "DMM4", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "86v", "HighLimit": "95v"}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "4 Measure Coil IFBK RS485 Read 10320.0 450 550", "output": {"Test": "", "Step": 4, "Description": "Measure Coil IFBK", "Unit": "RS485", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": 10320.0, "LowLimit": 450, "HighLimit": 550}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "5 Command Bypass Mode & Run RS485 Write 10523 0A Hex", "output": {"Test": "", "Step": 5, "Description": "Command Bypass Mode & Run", "Unit": "RS485", "Setting": "Write", "InputNode": 10523, "InputValue": "0A Hex", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "RS485 Write 10302 1", "output": {"Test": "", "Step": "", "Description": "", "Unit": "RS485", "Setting": "Write", "InputNode": 10302, "InputValue": 1, "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "6 Delay 6seconds", "output": {"Test": "", "Step": 6, "Description": "Delay 6seconds", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "7 Measure Contactor Suppy Voltages", "output": {"Test": "", "Step": 7, "Description": "Measure Contactor Suppy Voltages", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "External Voltage Measurement DMM4 Read 57v 70v", "output": {"Test": "", "Step": "", "Description": "External Voltage Measurement", "Unit": "DMM4", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "57v", "HighLimit": "70v"}}
+{"instruction": "VCAP RS485 Read 11107.0 575 700", "output": {"Test": "", "Step": "", "Description": "VCAP", "Unit": "RS485", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": 11107.0, "LowLimit": 575, "HighLimit": 700}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "8 Turn Off 90V supply enable RS485 Write 10501 2", "output": {"Test": "", "Step": 8, "Description": "Turn Off 90V supply enable", "Unit": "RS485", "Setting": "Write", "InputNode": 10501, "InputValue": 2, "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "9 Delay 10seconds", "output": {"Test": "", "Step": 9, "Description": "Delay 10seconds", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "10 Measure Contactor Supply Voltage DMM4 Read 0v 10v", "output": {"Test": "", "Step": 10, "Description": "Measure Contactor Supply Voltage", "Unit": "DMM4", "Setting": "Read", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "0v", "HighLimit": "10v"}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "11 Disable 24V common RS485 Write 10501 3", "output": {"Test": "", "Step": 11, "Description": "Disable 24V common", "Unit": "RS485", "Setting": "Write", "InputNode": 10501, "InputValue": 3, "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "Delay 1second", "output": {"Test": "", "Step": "", "Description": "Delay 1second", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "Measure User +24V DMM5,MUX-6 Close   -0.2V 0.5V", "output": {"Test": "", "Step": "", "Description": "Measure User +24V", "Unit": "DMM5,MUX-6", "Setting": "Close", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "  -0.2V", "HighLimit": "0.5V"}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "12 Remove Run Command RS485 Write 10302 0", "output": {"Test": "", "Step": 12, "Description": "Remove Run Command", "Unit": "RS485", "Setting": "Write", "InputNode": 10302, "InputValue": 0, "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "6 Restore factory settings and reboot", "output": {"Test": 6, "Step": "", "Description": "Restore factory settings and reboot", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "1 Clear fault and event logs", "output": {"Test": "", "Step": 1, "Description": "Clear fault and event logs", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "Clear Last Fault RS485 Write 0401 0", "output": {"Test": "", "Step": "", "Description": "Clear Last Fault", "Unit": "RS485", "Setting": "Write", "InputNode": "0401", "InputValue": 0, "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "2 Restore factory settings and reboot RS485 Write 10511 0005", "output": {"Test": "", "Step": 2, "Description": "Restore factory settings and reboot", "Unit": "RS485", "Setting": "Write", "InputNode": "10511", "InputValue": "0005", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "3 Delay 5seconds", "output": {"Test": "", "Step": 3, "Description": "Delay 5seconds", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "4 Stop Communications RS485 Write", "output": {"Test": "", "Step": 4, "Description": "Stop Communications", "Unit": "RS485", "Setting": "Write", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "7 Stop procedure", "output": {"Test": 7, "Step": "", "Description": "Stop procedure", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "1 Power off", "output": {"Test": "", "Step": 1, "Description": "Power off", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "2 Remove the board from fixture", "output": {"Test": "", "Step": 2, "Description": "Remove the board from fixture", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "Notes: 1 All measured values are to be recorded and saved, referenced to the assembly serial number.  total [s] 0.0", "output": {"Test": "Notes:", "Step": 1, "Description": "All measured values are to be recorded and saved, referenced to the assembly serial number. ", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "Revision Date Revised by Comments", "output": {"Test": "", "Step": "Revision", "Description": "Date", "Unit": "Revised by", "Setting": "", "InputNode": "Comments", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "0 06/08/2007 Dennis Tyczkowski First rev.", "output": {"Test": "", "Step": 0, "Description": "06/08/2007", "Unit": "Dennis Tyczkowski", "Setting": "", "InputNode": "First rev.", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "1 06/20/2007 Dennis Tyczkowski Removed special MODBUS commands. All control is now done through hidden parameters", "output": {"Test": "", "Step": 1, "Description": "06/20/2007", "Unit": "Dennis Tyczkowski", "Setting": "", "InputNode": "Removed special MODBUS commands. All control is now done through hidden parameters", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "Changed Input power supply to 175Vac from 165Vac to assure power supply start-up.", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "Changed Input power supply to 175Vac from 165Vac to assure power supply start-up.", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "2 07/12/2007 Dennis Tyczkowski Added delays for Coil control test.", "output": {"Test": "", "Step": 2, "Description": "07/12/2007", "Unit": "Dennis Tyczkowski", "Setting": "", "InputNode": "Added delays for Coil control test.", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "3 08/02/2007 Dennis Tyczkowski Changed limits in step 3.3 for 2,5vref and IFBK", "output": {"Test": "", "Step": 3, "Description": "08/02/2007", "Unit": "Dennis Tyczkowski", "Setting": "", "InputNode": "Changed limits in step 3.3 for 2,5vref and IFBK", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "A 12/05/2007 Dennis Tyczkowski Changed limits in step 1 for 90V and step 3.6 for Bus Voltage", "output": {"Test": "", "Step": "A", "Description": "12/05/2007", "Unit": "Dennis Tyczkowski", "Setting": "", "InputNode": "Changed limits in step 1 for 90V and step 3.6 for Bus Voltage", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "B 01/22/2008 Dennis Tyczkowski Changed limits based on test data from units built between 10/01/2007 - 1/15/2008", "output": {"Test": "", "Step": "B", "Description": "01/22/2008", "Unit": "Dennis Tyczkowski", "Setting": "", "InputNode": "Changed limits based on test data from units built between 10/01/2007 - 1/15/2008", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "C 7/10/2008 Lu Yang Added delay for power supply voltages to settle prior to reading.  Modified DC bus measurement method for better accuracy.", "output": {"Test": "", "Step": "C", "Description": "7/10/2008", "Unit": "Lu Yang", "Setting": "", "InputNode": "Added delay for power supply voltages to settle prior to reading.  Modified DC bus measurement method for better accuracy.", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "D 9/22/2008 Dennis Tyczkowski Changed Limits for board revision measurement, step 3.3", "output": {"Test": "", "Step": "D", "Description": "9/22/2008", "Unit": "Dennis Tyczkowski", "Setting": "", "InputNode": "Changed Limits for board revision measurement, step 3.3", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "E 9/25/2008 Dennis Tyczkowski Changed Limits for temporary increase of test voltage to 220vac. This is due to software error.", "output": {"Test": "", "Step": "E", "Description": "9/25/2008", "Unit": "Dennis Tyczkowski", "Setting": "", "InputNode": "Changed Limits for temporary increase of test voltage to 220vac. This is due to software error.", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "Also changed limits of three phase line meas to be based on actual line voltage reading ", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "Also changed limits of three phase line meas to be based on actual line voltage reading ", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "F 1/15/2009 Dennis Tyczkowski Changes to utilize the measurement of the input line voltage for calculation of limits. Due to highly distorted ", "output": {"Test": "", "Step": "F", "Description": "1/15/2009", "Unit": "Dennis Tyczkowski", "Setting": "", "InputNode": "Changes to utilize the measurement of the input line voltage for calculation of limits. Due to highly distorted ", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "line voltage at SVI the limits were increased until the software RMS filter time constant can be changed.", "output": {"Test": "", "Step": "", "Description": "", "Unit": "", "Setting": "", "InputNode": "line voltage at SVI the limits were increased until the software RMS filter time constant can be changed.", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}
+{"instruction": "Lu Yang Increased upper 90V test limit from 97V to 99V.", "output": {"Test": "", "Step": "", "Description": "", "Unit": "Lu Yang", "Setting": "", "InputNode": "Increased upper 90V test limit from 97V to 99V.", "InputValue": "", "MeasNode": "", "LowLimit": "", "HighLimit": ""}}

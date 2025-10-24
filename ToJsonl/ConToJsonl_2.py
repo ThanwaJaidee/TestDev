@@ -1,6 +1,7 @@
 import pandas as pd
 import json
 import os
+import math
 
 
 # -----------------------------
@@ -42,18 +43,7 @@ high_limit_col = find_col(df, ["high"])
 
 print(f"🧾 Detected columns: {test_col} / {step_col} / {desc_col} / {unit_col} / {setting_col} / {input_node_col} / {input_value_col} / {meas_node_col} / {low_limit_col} / {high_limit_col}")
 
-# ---------- helper สำหรับแปลงค่าให้เป็นชนิดที่ json รองรับ ----------
-# def to_jsonable(v):
-#     # แปลง NaN/None เป็น "" (หรือจะใช้ None ก็ได้ถ้าต้องการเก็บ null)
-#     if v is None or (isinstance(v, float) and math.isnan(v)):
-#         return ""
-#     # แปลงชนิด numpy ให้เป็น Python พื้นฐาน
-#     if hasattr(v, "item"):
-#         try:
-#             return v.item()
-#         except Exception:
-#             pass
-#     return v
+
 
 # ถ้าชื่อคอลัมน์ไม่ตรง สามารถเปลี่ยนชื่อได้เช่น
 # df.rename(columns={"Step#": "Step #"}, inplace=True)
@@ -61,19 +51,14 @@ print(f"🧾 Detected columns: {test_col} / {step_col} / {desc_col} / {unit_col}
 # -----------------------------
 # 4. รวมข้อความเป็น instruction
 # -----------------------------
-# data_instruction = {
-#     "Test "         : df[test_col].astype(str)  , 
-#     "Step "         : df[step_col].astype(str)  , 
-#     "Description "  : df[desc_col].fillna("")   , 
-#     "Unit "         : df[unit_col].fillna("")   , 
-# }
 
-df["instruction"] = (
-    "Test "         + df[test_col].astype(str)  + " : " +
-    "Step "         + df[step_col].astype(str)  + " : " +
-    "Description "  + df[desc_col].fillna("")   + " : " +
-    "Unit "         + df[unit_col].fillna("")   + " : " 
-)
+
+# df["instruction"] = (
+#     "Test "         + df[test_col].astype(str)  + " : " +
+#     "Step "         + df[step_col].astype(str)  + " : " +
+#     "Description "  + df[desc_col].fillna("")   + " : " +
+#     "Unit "         + df[unit_col].fillna("")   + " : " 
+# )
 
 # ถ้าต้องการเพิ่มช่องอื่น เช่น “Low Limit” หรือ “High Limit” ก็ได้ เช่น
 # df["instruction"] = (
@@ -81,19 +66,63 @@ df["instruction"] = (
 #     df["Description"].fillna("") +
 #     " | Range: " + df["Low Limit"].astype(str) + " - " + df["High Limit"].astype(str)
 # )
-
+# ---------- helper สำหรับแปลงค่าให้เป็นชนิดที่ json รองรับ ----------
+def to_jsonable(v):
+    # แปลง NaN/None เป็น "" (หรือจะใช้ None ก็ได้ถ้าต้องการเก็บ null)
+    if v is None or (isinstance(v, float) and math.isnan(v)):
+        return ""
+    # แปลงชนิด numpy ให้เป็น Python พื้นฐาน
+    if hasattr(v, "item"):
+        try:
+            return v.item()
+        except Exception:
+            pass
+    return v
 # -----------------------------
 # 5. สร้างฟิลด์สำหรับ JSONL
 # -----------------------------
 records = []
 for _, row in df.iterrows():
+    result_obj = {
+        "Test":        to_jsonable(row[test_col])       if test_col       else "",
+        "Step":        to_jsonable(row[step_col])       if step_col       else "",
+        "Description": to_jsonable(row[desc_col])       if desc_col       else "",
+        "Unit":        to_jsonable(row[unit_col])       if unit_col       else "",
+        # ใส่เพิ่มได้ถ้ามีคอลัมน์เหล่านี้
+        "Setting":     to_jsonable(row[setting_col])    if setting_col    else "",
+        "InputNode":   to_jsonable(row[input_node_col]) if input_node_col else "",
+        "InputValue":  to_jsonable(row[input_value_col])if input_value_col else "",
+        "MeasNode":    to_jsonable(row[meas_node_col])  if meas_node_col  else "",
+        "LowLimit":    to_jsonable(row[low_limit_col])  if low_limit_col  else "",
+        "HighLimit":   to_jsonable(row[high_limit_col]) if high_limit_col else "",
+    }
+    instruction_obj = " ".join(
+    str(to_jsonable(val))
+    for _, val in row.items()
+    if pd.notna(val)
+    )
+    # instruction_obj = {
+    #     to_jsonable(val)
+    #     for val in row.items()
+    #     if pd.notna(val)
+    # }
+    # instruction_obj = {
+    #     str(col).strip(): to_jsonable(val)
+    #     for col, val in row.items()
+    #     if pd.notna(val)
+    # }
     record = {
-        "instruction": row["instruction"],
-        # "instruction": json.dumps(data_instruction, ensure_ascii=False),
-        "output": str(row["Result"]) if "Result" in df.columns else ""
+        # เก็บ instruction เป็น “สตริง JSON” เพื่อทำไฟล์ .jsonl ได้ง่าย
+        "instruction": instruction_obj,
+        # "instruction": json.dumps(instruction_obj, ensure_ascii=False),
+        # "instruction": json.dumps(instruction_obj, ensure_ascii=False),
+        # output จะเก็บผลลัพธ์/คำตอบจริงตอนทำ supervision ก็ได้
+        "output": result_obj,
+        # "output": json.dumps(result_obj, ensure_ascii=False),
+        # "output": to_jsonable(row["Result"]) if "Result" in df.columns else ""
     }
     records.append(record)
-
+print(instruction_obj)
 # -----------------------------
 # 6. เขียนออกเป็น JSONL
 # -----------------------------
